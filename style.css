@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url("sp1.jpg");
+    /* background-repeat:no-repeat;
+        background-size: cover; */
+}
+    section{
+        min-height: 100vh;
+        
+    }
+h1{
+    text-align: left;
+    color: #63198d;
+}
+    
+.container{ 
+    width:85%;
+    margin:auto;
+}
+nav{
+    height:80px;
+    
+}
+nav h1{
+        float:right;
+        line-height: 100px;
+        font-size:35px;
+        font-size: inline;
+        color: #eb7620;
+    }
+    nav ul{
+        float: right;
+        line-height: 80px;
+        
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        padding: 0px 50px;
+
+    }
+    nav ul li a{
+        color:#0e0b09;
+        text-decoration-style: none;
+        text-transform: uppercase;
+        border-radius: 5px;
+        padding: 7px 8px;
+    }
+    nav ul li a:hover{
+        background-color:#ce543c;
+        transition: 0.10s ease;
+    }
+    nav ul li.active{
+        background-color:#f3ede7;
+    }
+    .artical{
+        width:500%;
+        margin: auto;
+        text-align:right ;
+        transform: translateY(25vh);
+    }
+    .artical h1{
+        font: size 36px;
+        color:#f4efef;
+        letter-spacing: 1.5px;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+    .artical p{
+        font-size: 18px;
+        color: #f5ebeb;
+        line-height: 1.5;
+        margin-bottom: 50px;
+
+    }
+    .artical.btn{
+        color:#fdfbfb;
+        padding: 12px 25px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: #f15048;
+    }
+    .artical.btn:hover{
+        background-color: #4399fa;
+        transition: 0.5s ease;
+        text-align: center;
+    
+    }
+   .w{
+    text-align: center;
+    text-transform: uppercase;
+    color: #f3ede7;
+    transition: 0.10s ease;
+    size: 340vh;
+    
+
+   }
+   .ma{
+    font-size: 50px;
+   }
+   p{
+    font-size: 20px;
+   }
+
+    
